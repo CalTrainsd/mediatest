@@ -27,92 +27,77 @@ function mp3Play() {
 </head>
 <body>
 
-Hello World of Media
+Media Test
+	
+	<br>
+ 	<video id="vid4" controls src="res/media/workout.mp4"></video>
+	<br>
+	<button onclick="document.getElementById('vid4').play();"> "res/media/workout.mp4</button>
+	<br>
+	
+	
+ 	<video id="vid40" controls src="workout.mp4"></video>
+	<br>
+	<button onclick="document.getElementById('vid40').play();">Relative "workout.mp4"</button>
 	<br>
 
-	Relative "res/media/workout.mp4"
-	<br>
- 	<video id="vid4" controls >
-		<source src="res/media/workout.mp4">
-	</video>
-	<br>
-	<button onclick="document.getElementById('vid4').play();">Play</button>
-	<br>
-
-	Relative "workout.mp4"
-	<br>
- 	<video id="vid40" controls >
-		<source src="workout.mp4">
-	</video>
-	<br>
-	<button onclick="document.getElementById('vid40').play();">Play</button>
-	<br>
-
-	Server http://cpt.aws.af.cm/res/media/workout.mp4
-	<br>
-  	<video id="vidServer" controls >
+	<video id="vidServer" controls >
 		<source src="http://cpt.aws.af.cm/res/media/workout.mp4">
 	</video>
 	<br>
-	<button onclick="document.getElementById('vidServer').play();">Play</button>
+	<button onclick="document.getElementById('vidServer').play();">Server http://cpt.aws.af.cm/res/media/workout.mp4</button>
 	<br>
 	
-	Embedded "file:///android_asset/www/res/media/workout.mp4"
-	<br>
  	<video id="vid3"controls  >
 		<source src="file:///android_asset/www/res/media/workout.mp4">
 	</video>
 	<br>
-	<button onclick="document.getElementById('vid3').play();">Play</button>
+	<button onclick="document.getElementById('vid3').play();">Embedded "file:///android_asset/www/res/media/workout.mp4"</button>
 	<br>
 	
-	SD card file:///C:/markf/carlos/af/cpt/public/res/media/workout.mp4
-	<br>
  	<video id="SDCard"controls  >
 		<source src="file:///C:/markf/carlos/af/cpt/public/res/media/workout.mp4">
 	</video>
 	<br>
-	<button onclick="document.getElementById('SDCard').play();">Play</button>
+	<button onclick="document.getElementById('SDCard').play();">SD card file:///C:/markf/carlos/af/cpt/public/res/media/workout.mp4
+		</button>
 	<br>
 
-	local file:///C:/markf/gigs/carlos/af/cpt/public/res/media/workout.mp4
-	<br>
- 	<video id="vidLocal"controls  >
+	<video id="vidLocal"controls  >
 		<source src="file:///C:/markf/gigs/carlos/af/cpt/public/res/media/workout.mp4">
 	</video>
 	<br>
-	<button onclick="document.getElementById('vidLocal').play();">Play</button>
+	<button onclick="document.getElementById('vidLocal').play();">local file:///C:/markf/gigs/carlos/af/cpt/public/res/media/workout.mp4</button>
 	<br>
 		
-	MP3 Relative "res/media/hooray.mp3"
-	<br>
- 	<audio id="mp3" controls autoplay >
+	<audio id="mp3" controls autoplay >
 		<source src="res/media/hooray.mp3"  type='audio/mpeg'>
 	</audio>
 	<br>
-	<button onclick="document.getElementById('mp3').play();">Play</button>
+	<button onclick="document.getElementById('mp3').play();">MP3 Relative "res/media/hooray.mp3"</button>
 	<br>
-	MP3 Relative "hooray.mp3"
-	<br>
+
  	<audio id="mp30" controls autoplay >
 		<source src="hooray.mp3"  type='audio/mpeg'>
 	</audio>
 	<br>
-	<button onclick="document.getElementById('mp30').play();">Play</button>
+	<button onclick="document.getElementById('mp30').play();">MP3 Relative "hooray.mp3"</button>
 	<br>
-	MP3 as Video! "hooray.mp3"
-	<br>
+	
  	<video id="mp31" src="hooray.mp3"></video>
 	<br>
-	<button onclick="document.getElementById('mp31').play();">Play</button>
+	<button onclick="document.getElementById('mp31').play();">	MP3 as Video! "hooray.mp3"
 	<br>
-	MP3 Server "http://cpt.aws.af.cm/hooray.mp3"
+	</button>
 	<br>
+
  	<audio id="mp32" controls autoplay >
 		<source src="http://cpt.aws.af.cm/res/media/hooray.mp3"  type='audio/mpeg'>
 	</audio>
 	<br>
-	<button onclick="document.getElementById('mp32').play();">Play</button>
+	<button onclick="document.getElementById('mp32').play();">	MP3 Server "http://cpt.aws.af.cm/hooray.mp3"
+	<br>
+</button>
 	<br>
 	
 	
